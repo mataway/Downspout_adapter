@@ -85,6 +85,89 @@
       ]
     },
     {
+      "atomType": "Rectangle",
+      "x": 0.4,
+      "y": 0.9,
+      "uniqueID": "id-60",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 3.25
+        },
+        {
+          "name": "y length",
+          "ioValue": 2.25
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5,
+      "y": 0.9,
+      "uniqueID": "id-64",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.25,
+          "currentEquation": "0.25"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6,
+      "y": 0.9,
+      "uniqueID": "id-68",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 3,
+          "currentEquation": "3"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8,
+      "y": 0.6,
+      "uniqueID": "id-78",
+      "ioValues": [
+        {
+          "name": "makeDisjoint",
+          "ioValue": true
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape3",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
       "atomType": "Extrude",
       "x": 0.5,
       "y": 0.4,
@@ -98,6 +181,32 @@
           "name": "height",
           "ioValue": 3,
           "currentEquation": "3"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.5,
+      "y": 0.1,
+      "uniqueID": "id-84",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 1.2,
+          "currentEquation": "1.20"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.5,
+      "y": 0.3,
+      "uniqueID": "id-87",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 1,
+          "currentEquation": "1"
         }
       ]
     }
@@ -117,6 +226,26 @@
       "ap2Name": "retain",
       "ap1ID": "id-41",
       "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-45",
+      "ap2ID": "id-78"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-60",
+      "ap2ID": "id-64"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-64",
+      "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-68",
+      "ap2ID": "id-78"
     },
     {
       "ap2Name": "remove",
