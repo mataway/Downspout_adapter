@@ -69,6 +69,22 @@
       ]
     },
     {
+      "atomType": "Difference",
+      "x": 0.6,
+      "y": 0.6,
+      "uniqueID": "id-45",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
       "atomType": "Extrude",
       "x": 0.5,
       "y": 0.4,
@@ -96,6 +112,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-4",
       "ap2ID": "id-8"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-41",
+      "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-8",
+      "ap2ID": "id-45"
     }
   ],
   "unitsKey": "Inches",
