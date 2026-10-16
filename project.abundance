@@ -18,18 +18,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "zDist",
-          "ioValue": 3.25,
-          "currentEquation": "3.25"
+          "ioValue": 3.25
         }
       ]
     },
@@ -68,8 +65,8 @@
     },
     {
       "atomType": "Output",
-      "x": 1,
-      "y": 0.5,
+      "x": 0.9,
+      "y": 0.8,
       "uniqueID": "id-2",
       "ioValues": [
         {
@@ -77,6 +74,40 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 1,
+      "y": 0.6,
+      "uniqueID": "id-213",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "STL Tolerance",
+          "ioValue": 0.002
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Downspout_adapter",
+          "currentEquation": "Downspout_adapter"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Downspout_adapter"
     },
     {
       "atomType": "Rectangle",
@@ -102,13 +133,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "y length",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ]
     },
@@ -172,8 +201,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0.25,
-          "currentEquation": "0.25"
+          "ioValue": 0.25
         }
       ]
     },
@@ -189,8 +217,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
@@ -198,15 +225,14 @@
         },
         {
           "name": "zDist",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ]
     },
     {
       "atomType": "Assembly",
       "x": 0.8,
-      "y": 0.6,
+      "y": 0.7,
       "uniqueID": "id-78",
       "ioValues": [
         {
@@ -239,8 +265,7 @@
         },
         {
           "name": "height",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         }
       ]
     },
@@ -252,8 +277,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 1.2,
-          "currentEquation": "1.20"
+          "ioValue": 1.2
         }
       ]
     },
@@ -265,8 +289,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         }
       ]
     },
@@ -314,8 +337,7 @@
         },
         {
           "name": "height",
-          "ioValue": 2,
-          "currentEquation": "2"
+          "ioValue": 2
         }
       ]
     }
@@ -335,6 +357,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-116",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-116",
+      "ap2ID": "id-213"
     },
     {
       "ap2Name": "geometry",
