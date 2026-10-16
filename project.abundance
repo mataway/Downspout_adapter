@@ -7,6 +7,66 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Move",
+      "x": 0.7,
+      "y": 0.1,
+      "uniqueID": "id-106",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 3.25,
+          "currentEquation": "3.25"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.8,
+      "y": 0.1,
+      "uniqueID": "id-112",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.9,
+      "y": 0.2,
+      "uniqueID": "id-116",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
       "atomType": "Output",
       "x": 1,
       "y": 0.5,
@@ -209,9 +269,73 @@
           "currentEquation": "1"
         }
       ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.9,
+      "y": 0.4,
+      "uniqueID": "id-90",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6,
+      "y": 0.3,
+      "uniqueID": "id-94",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.6,
+      "y": 0.1,
+      "uniqueID": "id-98",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ]
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-106",
+      "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-112",
+      "ap2ID": "id-116"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-116",
+      "ap2ID": "id-2"
+    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-37",
@@ -248,9 +372,44 @@
       "ap2ID": "id-78"
     },
     {
+      "ap2Name": "retain",
+      "ap1ID": "id-78",
+      "ap2ID": "id-90"
+    },
+    {
       "ap2Name": "remove",
       "ap1ID": "id-8",
       "ap2ID": "id-45"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-84",
+      "ap2ID": "id-98"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-87",
+      "ap2ID": "id-94"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-90",
+      "ap2ID": "id-116"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-94",
+      "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-94",
+      "ap2ID": "id-90"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-98",
+      "ap2ID": "id-106"
     }
   ],
   "unitsKey": "Inches",
