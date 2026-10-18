@@ -4,6 +4,16 @@
   "y": 0,
   "uniqueID": "id-1",
   "name": "Downspout_adapter",
+  "ioValues": [
+    {
+      "name": "width",
+      "ioValue": 3.125
+    },
+    {
+      "name": "height",
+      "ioValue": 2
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -110,6 +120,59 @@
       "partName": "Downspout_adapter"
     },
     {
+      "atomType": "Input",
+      "x": 0,
+      "y": 0.3,
+      "uniqueID": "id-278",
+      "name": "width",
+      "options": []
+    },
+    {
+      "atomType": "Input",
+      "x": 0,
+      "y": 0.5,
+      "uniqueID": "id-281",
+      "name": "height",
+      "options": []
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2,
+      "y": 0.8,
+      "uniqueID": "id-284",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 2
+        },
+        {
+          "name": "y",
+          "ioValue": 0.25,
+          "currentEquation": "0.25"
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2,
+      "y": 0.7,
+      "uniqueID": "id-288",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 3.125
+        },
+        {
+          "name": "y",
+          "ioValue": 0.25
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
       "atomType": "Rectangle",
       "x": 0.4,
       "y": 0.7,
@@ -117,7 +180,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3.25
+          "ioValue": 3.375
         },
         {
           "name": "y length",
@@ -133,7 +196,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3
+          "ioValue": 3.125
         },
         {
           "name": "y length",
@@ -181,7 +244,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3.25
+          "ioValue": 3.375
         },
         {
           "name": "y length",
@@ -362,6 +425,46 @@
       "ap2Name": "geometry",
       "ap1ID": "id-116",
       "ap2ID": "id-213"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-278",
+      "ap2ID": "id-288"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-278",
+      "ap2ID": "id-4"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-281",
+      "ap2ID": "id-284"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-281",
+      "ap2ID": "id-4"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-284",
+      "ap2ID": "id-37"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-284",
+      "ap2ID": "id-60"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-288",
+      "ap2ID": "id-37"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-288",
+      "ap2ID": "id-60"
     },
     {
       "ap2Name": "geometry",
