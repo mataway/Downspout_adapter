@@ -250,6 +250,23 @@
       ]
     },
     {
+      "atomType": "Rectangle",
+      "x": 0.3,
+      "y": 0.3,
+      "uniqueID": "id-449",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 3.125,
+          "currentEquation": "10"
+        },
+        {
+          "name": "y length",
+          "ioValue": 2.25
+        }
+      ]
+    },
+    {
       "atomType": "Difference",
       "x": 0.6,
       "y": 0.6,
@@ -466,6 +483,11 @@
       "ap2ID": "id-4"
     },
     {
+      "ap2Name": "x length",
+      "ap1ID": "id-278",
+      "ap2ID": "id-449"
+    },
+    {
       "ap2Name": "x",
       "ap1ID": "id-281",
       "ap2ID": "id-284"
@@ -514,6 +536,11 @@
       "ap2Name": "zDist",
       "ap1ID": "id-369",
       "ap2ID": "id-106"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-369",
+      "ap2ID": "id-449"
     },
     {
       "ap2Name": "geometry",
