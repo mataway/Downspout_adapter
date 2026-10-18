@@ -11,8 +11,12 @@
     },
     {
       "name": "height",
-      "ioValue": 2.125,
-      "currentEquation": "2.125"
+      "ioValue": 2.125
+    },
+    {
+      "name": "depth",
+      "ioValue": 3,
+      "currentEquation": "3"
     }
   ],
   "topLevel": true,
@@ -123,7 +127,7 @@
     {
       "atomType": "Input",
       "x": 0,
-      "y": 0.3,
+      "y": 0.2,
       "uniqueID": "id-278",
       "name": "width",
       "options": []
@@ -131,7 +135,7 @@
     {
       "atomType": "Input",
       "x": 0,
-      "y": 0.5,
+      "y": 0.2,
       "uniqueID": "id-281",
       "name": "height",
       "options": []
@@ -139,7 +143,7 @@
     {
       "atomType": "Equation",
       "x": 0.2,
-      "y": 0.8,
+      "y": 0.9,
       "uniqueID": "id-284",
       "name": "x + y",
       "ioValues": [
@@ -149,8 +153,7 @@
         },
         {
           "name": "y",
-          "ioValue": 0.25,
-          "currentEquation": "0.25"
+          "ioValue": 0.25
         }
       ],
       "currentEquation": "x + y"
@@ -165,6 +168,32 @@
         {
           "name": "x",
           "ioValue": 3.125
+        },
+        {
+          "name": "y",
+          "ioValue": 0.25
+        }
+      ],
+      "currentEquation": "x + y"
+    },
+    {
+      "atomType": "Input",
+      "x": 0,
+      "y": 0.5,
+      "uniqueID": "id-366",
+      "name": "depth",
+      "options": []
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2,
+      "y": 0.5,
+      "uniqueID": "id-369",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 3
         },
         {
           "name": "y",
@@ -335,7 +364,7 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.5,
+      "x": 0.4,
       "y": 0.1,
       "uniqueID": "id-84",
       "ioValues": [
@@ -347,8 +376,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.5,
-      "y": 0.3,
+      "x": 0.4,
+      "y": 0.2,
       "uniqueID": "id-87",
       "ioValues": [
         {
@@ -401,7 +430,8 @@
         },
         {
           "name": "height",
-          "ioValue": 2
+          "ioValue": 1,
+          "currentEquation": "1"
         }
       ]
     }
@@ -466,6 +496,26 @@
       "ap2Name": "x length",
       "ap1ID": "id-288",
       "ap2ID": "id-60"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-366",
+      "ap2ID": "id-369"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-366",
+      "ap2ID": "id-41"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-366",
+      "ap2ID": "id-68"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-369",
+      "ap2ID": "id-106"
     },
     {
       "ap2Name": "geometry",
