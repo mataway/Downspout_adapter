@@ -11,7 +11,8 @@
     },
     {
       "name": "height",
-      "ioValue": 2
+      "ioValue": 2.125,
+      "currentEquation": "2.125"
     }
   ],
   "topLevel": true,
@@ -75,7 +76,7 @@
     },
     {
       "atomType": "Output",
-      "x": 0.9,
+      "x": 1,
       "y": 0.8,
       "uniqueID": "id-2",
       "ioValues": [
@@ -144,7 +145,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 2
+          "ioValue": 2.125
         },
         {
           "name": "y",
@@ -184,7 +185,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 2.25
+          "ioValue": 2.375
         }
       ]
     },
@@ -200,7 +201,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 2
+          "ioValue": 2.125
         }
       ]
     },
@@ -248,7 +249,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 2.25
+          "ioValue": 2.375
         }
       ]
     },
@@ -319,7 +320,7 @@
     {
       "atomType": "Extrude",
       "x": 0.5,
-      "y": 0.4,
+      "y": 0.5,
       "uniqueID": "id-8",
       "ioValues": [
         {
@@ -358,7 +359,7 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.9,
+      "x": 0.8,
       "y": 0.4,
       "uniqueID": "id-90",
       "ioValues": [
