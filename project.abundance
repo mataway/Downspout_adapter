@@ -15,8 +15,7 @@
     },
     {
       "name": "depth",
-      "ioValue": 3,
-      "currentEquation": "3"
+      "ioValue": 2
     }
   ],
   "topLevel": true,
@@ -41,7 +40,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 3.25
+          "ioValue": 2.25
         }
       ]
     },
@@ -179,7 +178,7 @@
     {
       "atomType": "Input",
       "x": 0,
-      "y": 0.5,
+      "y": 0.3,
       "uniqueID": "id-366",
       "name": "depth",
       "options": []
@@ -193,7 +192,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 3
+          "ioValue": 2
         },
         {
           "name": "y",
@@ -246,7 +245,7 @@
         },
         {
           "name": "height",
-          "ioValue": 3
+          "ioValue": 2
         }
       ]
     },
@@ -318,7 +317,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 3
+          "ioValue": 2
         }
       ]
     },
@@ -430,8 +429,7 @@
         },
         {
           "name": "height",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         }
       ]
     }
