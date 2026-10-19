@@ -220,7 +220,7 @@
     {
       "atomType": "Rectangle",
       "x": 0.4,
-      "y": 0.6,
+      "y": 0.5,
       "uniqueID": "id-4",
       "ioValues": [
         {
