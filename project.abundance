@@ -311,7 +311,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
@@ -327,7 +328,7 @@
     {
       "atomType": "Difference",
       "x": 0.8,
-      "y": 0.4,
+      "y": 0.3,
       "uniqueID": "id-463",
       "ioValues": [
         {
