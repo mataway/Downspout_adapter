@@ -186,7 +186,7 @@
     {
       "atomType": "Equation",
       "x": 0.2,
-      "y": 0.5,
+      "y": 0.3,
       "uniqueID": "id-369",
       "name": "x + y",
       "ioValues": [
@@ -225,7 +225,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 2.25
+          "ioValue": 3.125,
+          "currentEquation": "3"
         },
         {
           "name": "y length",
@@ -443,7 +444,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 1.2
+          "ioValue": 1.25
         }
       ]
     },
@@ -535,6 +536,11 @@
       "ap2ID": "id-288"
     },
     {
+      "ap2Name": "x length",
+      "ap1ID": "id-278",
+      "ap2ID": "id-4"
+    },
+    {
       "ap2Name": "x",
       "ap1ID": "id-281",
       "ap2ID": "id-284"
@@ -593,11 +599,6 @@
       "ap2Name": "zDist",
       "ap1ID": "id-369",
       "ap2ID": "id-106"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-369",
-      "ap2ID": "id-4"
     },
     {
       "ap2Name": "height",
