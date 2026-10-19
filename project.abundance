@@ -7,11 +7,11 @@
   "ioValues": [
     {
       "name": "width",
-      "ioValue": 3.125
+      "ioValue": 3
     },
     {
       "name": "height",
-      "ioValue": 2.125
+      "ioValue": 2
     },
     {
       "name": "depth",
@@ -148,7 +148,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 2.125
+          "ioValue": 2
         },
         {
           "name": "y",
@@ -166,7 +166,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 3.125
+          "ioValue": 3
         },
         {
           "name": "y",
@@ -209,11 +209,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3.375
+          "ioValue": 3.25
         },
         {
           "name": "y length",
-          "ioValue": 2.375
+          "ioValue": 2.25
         }
       ]
     },
@@ -225,12 +225,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3.125,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "y length",
-          "ioValue": 2.125
+          "ioValue": 2
         }
       ]
     },
@@ -258,12 +257,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3.375,
-          "currentEquation": "10"
+          "ioValue": 3.25
         },
         {
           "name": "y length",
-          "ioValue": 2.375
+          "ioValue": 2.25
         }
       ]
     },
@@ -311,13 +309,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 2.125,
-          "currentEquation": "2.125"
+          "ioValue": 2.125
         },
         {
           "name": "zDist",
@@ -349,11 +345,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 3.375
+          "ioValue": 3.25
         },
         {
           "name": "y length",
-          "ioValue": 2.375
+          "ioValue": 2.25
         }
       ]
     },
